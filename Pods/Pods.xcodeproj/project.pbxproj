@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D181755EA97F4C83EF1B6977382987 /* RAVSectionHeaderFooterViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7329EF7F2D7CFD375CF3658AD157AF12 /* RAVSectionHeaderFooterViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C4F524AA687E04CB98922C86059D35 /* RAVCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B16D8FDA42930F80B4DB12C8B761A6 /* RAVCollectionViewController.m */; };
+		0F5D9456CC7A9C109F0FB71966F7B28B /* RAVEditDelegateP.h in Headers */ = {isa = PBXBuildFile; fileRef = 06852E49B91012E56B2DCA7F036FA185 /* RAVEditDelegateP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10440BFAD33F7B965D187056F0DA7913 /* RAVCellActionsDelegateP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8620C3B18DFC8EB5C06274165867DF4E /* RAVCellActionsDelegateP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		107C8A4D48C8B0120953B851B5AF9DD7 /* Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CA065CCF013C8AE64806AE78E140CE /* Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m */; };
+		112674EBDD8FC3DA7C2EE3F986E62999 /* RAVCollectionViewFlowHorizontalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6374CF36EBE698D0096F542C1CFA44 /* RAVCollectionViewFlowHorizontalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FDEB8E61F34F355327CBC9E4DDBA6FB /* RAVSectionHeaderViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5390743426750B938FD610F8D7B8B0BF /* RAVSectionHeaderViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214C97D0433B9658C9AEA62D1E66BF5F /* RAVCollectionViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B38DEE2CEBE70E524242F658A6E5EF /* RAVCollectionViewPresenter.m */; };
+		2317FC62F8704275EF114CF9C185107A /* RAVCellPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 108E279E11B0C60CBD53063DC9C03486 /* RAVCellPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2675C8421B19A6DB22C0B0F0C2A0D41F /* RAVSectionHeaderViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E000295CCA0886EE924E46C8B3DF2 /* RAVSectionHeaderViewPresenter.m */; };
+		2BF895ECDA9C63743BA20A5CB4F77F96 /* _RAVDelegatesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E948DF0F05ED1C318EC8FEED5B94F710 /* _RAVDelegatesPresenter.m */; };
+		2D21559012621D35D2D67C7B7B4AD88E /* RAVSectionHeaderFooterViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 876A8B2680CAE95C6BB829AA2ECB6D62 /* RAVSectionHeaderFooterViewPresenter.m */; };
+		31D06CE6933E8625B810EE8AE17BB1B4 /* RAVSingleModelHeaderFooterViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F870BFC45099D4B33144A63D5A816187 /* RAVSingleModelHeaderFooterViewPresenter.m */; };
+		329F6F4F1DFEEFD38E265E14A5A5BC04 /* RAVHorizontalViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09361D5357BFB758E2E3786B1092FB12 /* RAVHorizontalViewPresenter.m */; };
+		35DDF5E5313C233C2A4D57D83CF69DB8 /* RAVSectionIndexesDelegateP.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FF1FDDB0BE203C19C92C75F6B70267 /* RAVSectionIndexesDelegateP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379A824230457B4BCFEA18A85E4D4DD8 /* RAVUPBlockBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 241039F353CC03B074F97FD09ECC3805 /* RAVUPBlockBinding.m */; };
+		38716DA6BC1B0B2F221648A34B694629 /* RAVPresentersKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E2B266A559DBF4B82CB7A01015605F /* RAVPresentersKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BFFEE1EB628D1D91983B0C4625AD5E6 /* RAVTableControllerListModelMemory+RAVAppCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = CEECCC00FEC46BB165C8527DC9ECA9B3 /* RAVTableControllerListModelMemory+RAVAppCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6EEA9E1D3464BF58E2C0A926640893 /* RAVSectionFooterViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8890F748C69174D3F31038D2CF6408F8 /* RAVSectionFooterViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4838014FF0235896EE5B2300D8747136 /* _RAVDelegatesPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 790B95CF2F92B62A8F120ED3CCB2886B /* _RAVDelegatesPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4946B6954AAE92385247FE9619577A7B /* RAVSingleModelHeaderFooterViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = F80C1D54273FC4C29BB61D766E16DC02 /* RAVSingleModelHeaderFooterViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A344CEC7E840B755CDD7B7102EF35AF /* RAVPresentersKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B523545D5207724B3F8ED7B1E682CD81 /* RAVPresentersKit-dummy.m */; };
+		4B63A77A4DF6EECB2AC3800D40747F92 /* RAVUPCellModelBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C18D53E1FC6EE203D6608811DF60453 /* RAVUPCellModelBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B77E041ED42DC89930BB1659C450FD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		4FAB0416F8C45C2481E621E7AAAFE994 /* RAVTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833800432CC14A7EFC0FB95D216E802 /* RAVTableController.m */; };
+		55BB060957484420D90FF987C1CFD542 /* RAVCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6FC9C44F45525FD6E2E48A0C65E900 /* RAVCellPresenter.m */; };
+		56D11EC43E30178D67327799677881C3 /* RAVHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B718EEF70B4B523880A88EFA976B7913 /* RAVHorizontalView.m */; };
+		572A8E3C86574AAF178B92E2294BB664 /* RAVHorCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D00793D73AFC02F928C15B3F62C6C6A /* RAVHorCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575A3CAC7E852FE0C1C4C2930AEE45E4 /* Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C0A8DF1F981664475098DB25CD05BD /* Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CAA7363303472456242E23ABE55A4EA /* RAVTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = B29960EC3A7C4160402BEB763567D518 /* RAVTableController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAF010997266C3507E873EE9C30DE7C /* RAVHorizontalView.h in Headers */ = {isa = PBXBuildFile; fileRef = E903F508DB59DC7EA153864A9F8A9FDF /* RAVHorizontalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EBCD2A3FCCDA8CC981ECA26279C5BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		7098DB88683401C48AA9B96783536D2C /* RAVScrollViewDelegateP.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FC509C944DAA8E208FA5B7679FBFAD /* RAVScrollViewDelegateP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		718872BC9761BAB70A3F7152D8821E27 /* RAVCollectionViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE18B4CF4D2746AFF0F0D0445A36BFF /* RAVCollectionViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75EED76BBF72E83E3A31EE1791D97947 /* RAVPresenterP.h in Headers */ = {isa = PBXBuildFile; fileRef = 66049DF9B482B69F0A01E3821CD44054 /* RAVPresenterP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		779D42F46444106716C30A33A300EE83 /* Pods-LostTimeApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D2BBF6E9E8DCF0238460EEF6B5E34 /* Pods-LostTimeApplication-dummy.m */; };
+		7C1C81DE6BFFF8E18A512CB6BABB05BC /* RAVPresentersStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31A5E6BD75A002788B20C215713363 /* RAVPresentersStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB378B00425D269BB6F446C4A664600 /* RAVTableControllerListModelMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 420E8AC899969E60CD4D12901B94ABBE /* RAVTableControllerListModelMemory.m */; };
+		7EBFBED0C0A377C4BF9383411CAD0D8E /* RAVManyModelCellsPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 09170DB8A062655DA3B054FE1FADD2B7 /* RAVManyModelCellsPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83812D12D7E310ED838D0E5174B8652D /* RAVUPPresentersStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2CCA8ABA4978E63877C487CC6EAD88 /* RAVUPPresentersStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8647EB4FC924768A4D18420E5AC749A7 /* RAVSectionFooterViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AB09F4C4378A524AAED8DB8F617CBB /* RAVSectionFooterViewPresenter.m */; };
+		8656E53D0FFD550C0D9B23DF159DD710 /* RAVUniversalDataViewP.h in Headers */ = {isa = PBXBuildFile; fileRef = D3605B889E948957F10F1CF3B72C9876 /* RAVUniversalDataViewP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8E686DC4FB2394694517699DD8CA22 /* RAVTableControllerSectionModelP.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB8713A89DEE4C6B02687CFF9C39BA /* RAVTableControllerSectionModelP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0A3E81E94B444A12797310D7E28712 /* RAVPresentersStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A8380D6EADF24103D6AD8614AEC6E9 /* RAVPresentersStore.m */; };
+		8EEF9DBD6713DD4447724A9698E80EF4 /* RAVTableControllerListModelMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F5C3CF16A536F1FA1DF09A44FD25E1 /* RAVTableControllerListModelMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951B6BCCC54935DB9A6C8181DF649FCC /* RAVUPCellModelBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = A731271295A6E4F0F30D8DBFC66F3985 /* RAVUPCellModelBinding.m */; };
+		9629F48BCE4E8ECA5107E2448C7B2169 /* RAVUPDelegatesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D9C7B3E6526F2D84C8815E42CD31D2 /* RAVUPDelegatesStore.m */; };
+		96C5AA21ACA63E3AEE568D0D36635FB3 /* RAVSingleModelCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D979762996258827C2C64321F0FA0 /* RAVSingleModelCellPresenter.m */; };
+		9885BDE994AF127FEDAD9DCB57DFC1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		A2236710436026AB4C39212C8EC018B4 /* RAVHorizontalViewPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = CC43DEEEC12A2C28101221422DB355D4 /* RAVHorizontalViewPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41D3A33A69532EF2142CA2480BA8A14 /* RAVTableControllerSectionModelMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D967212CB80A2201238CD9EF84BDB8 /* RAVTableControllerSectionModelMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63A8853AE3FD780E6B7406DA82601F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		A82A6698A8D69486BD3F18F3923B36E4 /* Pods-LostTimeApplicationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8799C05928412DDD0D9E886A4E60488E /* Pods-LostTimeApplicationTests-dummy.m */; };
+		A9BED4D0DDD0C0E1AD8B7DEF07192B21 /* RAVTableControllerSectionModelMemory+RAVAppCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F9A841AEA2F8BC820058C887235756 /* RAVTableControllerSectionModelMemory+RAVAppCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E9AD996BF284F04C5D54326776F8AB /* RAVTableController_Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34C2D28B3E76BD2488E44C703D15B2 /* RAVTableController_Subclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F9A89FA63C28716B73E0FBDF46C741 /* NSArray+RAVSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E98CDC50538F88BA96491449072AFD /* NSArray+RAVSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F3EAACA8CA26C1ADAA4A40381CA2CB /* NSArray+RAVSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 16180434FDCCE231B2338E8CBAA388F4 /* NSArray+RAVSupport.m */; };
+		B87257E740EB6B36B5749D7EC74AE6C7 /* RAVTableControllerSectionModelMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 254E01686321C27264AFC38A34BC234E /* RAVTableControllerSectionModelMemory.m */; };
+		BCEF6598BE79A24FD27BC7BE9A9293E9 /* RAVCollectionViewFlowHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 879868BF15D70B90EAB893150406B5FC /* RAVCollectionViewFlowHorizontalLayout.m */; };
+		BD51AC17F3990A3850A4868C774EA2FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */; };
+		BFCD8353478108FB0AB644E6F42A49CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */; };
+		C1F8B2BEC64DA84D24987E2D7C9E07C7 /* RAVManyModelCellsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA20A150D7D11F69A1E9217FBFDA87 /* RAVManyModelCellsPresenter.m */; };
+		C5C4B4D2DDFFFB2315A338230C67B119 /* RAVPresentersKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C0287262315D7065FC48577E7E4B25 /* RAVPresentersKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91C294AA35EF86C3398AEBF5726F91B /* Pods-LostTimeApplicationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8AC1CC70A27FE64598628F72E2FB6D /* Pods-LostTimeApplicationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE4E63F0369CCBF473A2288C081A2C9 /* RAVUPDelegatesStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 837BE9B3F79C9232E2517266F3AAA050 /* RAVUPDelegatesStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D069A8CABFFFAA297225A9BFBDA6E1E4 /* RAVUPCallbacksStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA98B7ED3A6C2EC1A743B19F9928DE2 /* RAVUPCallbacksStore.m */; };
+		D19786AE563D5F21592D395D0451CEA9 /* RAVTableControllerListModelP.h in Headers */ = {isa = PBXBuildFile; fileRef = E3066EDDA7D4402BF45C5AD3E57E9E24 /* RAVTableControllerListModelP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42E54B95A588AD2B65769833BA3F470 /* RAVHorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835B6360A7F80D163CA2B9AA81D6D962 /* RAVHorizontalViewController.m */; };
+		D4C75F980B3E11F85EAA6E641B8891E6 /* RAVUPBlockBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8816CFEA5E540D2116599B7A1BAAB1DA /* RAVUPBlockBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DFABC279B3D9BCCF6ABE64840D24A3 /* RAVSingleModelCellPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3463C76BA458B44CC37F8E02FADED9D8 /* RAVSingleModelCellPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD6FB9D5CCB9DEAF03472C10A969A78E /* RAVHorCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E555676C36F2AB50AE61E0910637236C /* RAVHorCollectionView.m */; };
+		E32AC899035BE863DDECD73CEAA1BAC5 /* RAVTableControllerSectionModelMemory+RAVAppCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FC1279F21B0883943CEA76791D85B /* RAVTableControllerSectionModelMemory+RAVAppCategory.m */; };
+		EBF79354FD92A51FDA72AFBDC6273C62 /* RAVHorizontalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B6F97115AAA1356C9A3A375DBB81A7 /* RAVHorizontalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC77787EF6C1BBB0870B0AA108FE19C8 /* RAVCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 555F88800779C6B529AD59D0906D500E /* RAVCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CAE46AB13176A34D29E861FF00CBB9 /* RAVUPPresentersStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A600C92844339D11BDD1B5EAB59B7 /* RAVUPPresentersStore.m */; };
+		F168F0FDC43980A094F790212526DBF2 /* RAVTableControllerListModelMemory+RAVAppCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9B77E4F1B374A6B2C0D5340CFCDAF /* RAVTableControllerListModelMemory+RAVAppCategory.m */; };
+		F3648A4E82BB61E283827D064B13A6DB /* Pods-LostTimeApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5BBDC2C78DF7FB2AD3B530356C297C /* Pods-LostTimeApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39D556C72CF847C2749C2CE180A9FE7 /* RAVSectionModelPresenterP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2461E78A375B97CD9F663551CC4B0091 /* RAVSectionModelPresenterP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C15B8ACE07874143501CEF4FFE3F71 /* RAVUPCallbacksStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E10C80CBC61AFE9E14AC87BFB28E474 /* RAVUPCallbacksStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6EA7768C3CED14AC9DFC6314CA9FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B8296D1ECB5BDBBC5E1567F6CC2D3C;
+			remoteInfo = RAVPresentersKit;
+		};
+		2907A692C678472E3A9F96DCDBBBCB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9F1DD334A573C7A3AEEB95DE3636A2;
+			remoteInfo = "Pods-LostTimeApplication";
+		};
+		5D25F24B269EC51299ECEFAC5EBFC646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B8296D1ECB5BDBBC5E1567F6CC2D3C;
+			remoteInfo = RAVPresentersKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A09B34963FB623D6847F0E0CAEE540 /* Pods-LostTimeApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostTimeApplication-frameworks.sh"; sourceTree = "<group>"; };
+		02E98CDC50538F88BA96491449072AFD /* NSArray+RAVSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RAVSupport.h"; path = "TableController/RAVPresentersKit/Core/NSArray+RAVSupport.h"; sourceTree = "<group>"; };
+		0350922BCA3BF4D00A1AFD62F316DEF5 /* Pods-LostTimeApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LostTimeApplication.modulemap"; sourceTree = "<group>"; };
+		06852E49B91012E56B2DCA7F036FA185 /* RAVEditDelegateP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVEditDelegateP.h; path = TableController/RAVPresentersKit/TableViewController/RAVEditDelegateP.h; sourceTree = "<group>"; };
+		0833800432CC14A7EFC0FB95D216E802 /* RAVTableController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVTableController.m; path = TableController/RAVPresentersKit/TableViewController/RAVTableController.m; sourceTree = "<group>"; };
+		09170DB8A062655DA3B054FE1FADD2B7 /* RAVManyModelCellsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVManyModelCellsPresenter.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/RAVManyModelCellsPresenter.h; sourceTree = "<group>"; };
+		09361D5357BFB758E2E3786B1092FB12 /* RAVHorizontalViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVHorizontalViewPresenter.m; path = TableController/RAVPresentersKit/HorizontalView/controller/RAVHorizontalViewPresenter.m; sourceTree = "<group>"; };
+		09D967212CB80A2201238CD9EF84BDB8 /* RAVTableControllerSectionModelMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableControllerSectionModelMemory.h; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerSectionModelMemory.h; sourceTree = "<group>"; };
+		0B8AC1CC70A27FE64598628F72E2FB6D /* Pods-LostTimeApplicationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostTimeApplicationTests-umbrella.h"; sourceTree = "<group>"; };
+		0C18D53E1FC6EE203D6608811DF60453 /* RAVUPCellModelBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUPCellModelBinding.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPCellModelBinding.h; sourceTree = "<group>"; };
+		0DBADEE742BB4DE3CDEFD5ABC0E3FE9A /* Pods-LostTimeApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostTimeApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
+		108E279E11B0C60CBD53063DC9C03486 /* RAVCellPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVCellPresenter.h; path = TableController/RAVPresentersKit/TableViewController/RAVCellPresenter.h; sourceTree = "<group>"; };
+		12B38DEE2CEBE70E524242F658A6E5EF /* RAVCollectionViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVCollectionViewPresenter.m; path = TableController/RAVPresentersKit/CollectionViewPresenters/RAVCollectionViewPresenter.m; sourceTree = "<group>"; };
+		16180434FDCCE231B2338E8CBAA388F4 /* NSArray+RAVSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RAVSupport.m"; path = "TableController/RAVPresentersKit/Core/NSArray+RAVSupport.m"; sourceTree = "<group>"; };
+		16DD640DD65D24DA21346FD9871EE633 /* Pods-LostTimeApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplication.release.xcconfig"; sourceTree = "<group>"; };
+		1B6407C483D55E0748B3767DF924DF81 /* Pods-LostTimeApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D34C2D28B3E76BD2488E44C703D15B2 /* RAVTableController_Subclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableController_Subclassing.h; path = TableController/RAVPresentersKit/TableViewController/RAVTableController_Subclassing.h; sourceTree = "<group>"; };
+		1EC9B77E4F1B374A6B2C0D5340CFCDAF /* RAVTableControllerListModelMemory+RAVAppCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RAVTableControllerListModelMemory+RAVAppCategory.m"; path = "TableController/RAVPresentersKit/utils/RAVTableControllerListModelMemory+RAVAppCategory.m"; sourceTree = "<group>"; };
+		23F9A841AEA2F8BC820058C887235756 /* RAVTableControllerSectionModelMemory+RAVAppCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RAVTableControllerSectionModelMemory+RAVAppCategory.h"; path = "TableController/RAVPresentersKit/utils/RAVTableControllerSectionModelMemory+RAVAppCategory.h"; sourceTree = "<group>"; };
+		241039F353CC03B074F97FD09ECC3805 /* RAVUPBlockBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVUPBlockBinding.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPBlockBinding.m; sourceTree = "<group>"; };
+		2461E78A375B97CD9F663551CC4B0091 /* RAVSectionModelPresenterP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSectionModelPresenterP.h; path = TableController/RAVPresentersKit/TableViewController/RAVSectionModelPresenterP.h; sourceTree = "<group>"; };
+		254E01686321C27264AFC38A34BC234E /* RAVTableControllerSectionModelMemory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVTableControllerSectionModelMemory.m; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerSectionModelMemory.m; sourceTree = "<group>"; };
+		26CA065CCF013C8AE64806AE78E140CE /* Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m"; sourceTree = "<group>"; };
+		2CCC241B2CD420FFA38D3F8628174BA8 /* Pods_LostTimeApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostTimeApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3463C76BA458B44CC37F8E02FADED9D8 /* RAVSingleModelCellPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSingleModelCellPresenter.h; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSingleModelCellPresenter.h; sourceTree = "<group>"; };
+		35E29D341903FA6D6FE43ED8EDE8651F /* RAVPresentersKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAVPresentersKit.release.xcconfig; sourceTree = "<group>"; };
+		361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B989369FC177F8E9ECB2E2C8621BC51 /* Pods-LostTimeApplication-LostTimeApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplication-LostTimeApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6B0CEDFA2C77D309222B9F4C84BB95 /* RAVPresentersKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RAVPresentersKit-Info.plist"; sourceTree = "<group>"; };
+		3E9157B00FCFA95A6B6A0F40C463C786 /* Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		420E8AC899969E60CD4D12901B94ABBE /* RAVTableControllerListModelMemory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVTableControllerListModelMemory.m; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerListModelMemory.m; sourceTree = "<group>"; };
+		4515478CC53BA9900187B97653A1E977 /* RAVPresentersKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVPresentersKit-prefix.pch"; sourceTree = "<group>"; };
+		4D0D979762996258827C2C64321F0FA0 /* RAVSingleModelCellPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSingleModelCellPresenter.m; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSingleModelCellPresenter.m; sourceTree = "<group>"; };
+		5390743426750B938FD610F8D7B8B0BF /* RAVSectionHeaderViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSectionHeaderViewPresenter.h; path = TableController/RAVPresentersKit/TableViewController/RAVSectionHeaderViewPresenter.h; sourceTree = "<group>"; };
+		53FF1FDDB0BE203C19C92C75F6B70267 /* RAVSectionIndexesDelegateP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSectionIndexesDelegateP.h; path = TableController/RAVPresentersKit/TableViewController/RAVSectionIndexesDelegateP.h; sourceTree = "<group>"; };
+		543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		555F88800779C6B529AD59D0906D500E /* RAVCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVCollectionViewController.h; path = TableController/RAVPresentersKit/CollectionViewPresenters/RAVCollectionViewController.h; sourceTree = "<group>"; };
+		5C2CCA8ABA4978E63877C487CC6EAD88 /* RAVUPPresentersStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUPPresentersStore.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPPresentersStore.h; sourceTree = "<group>"; };
+		5D00793D73AFC02F928C15B3F62C6C6A /* RAVHorCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVHorCollectionView.h; path = TableController/RAVPresentersKit/HorizontalView/RAVHorCollectionView.h; sourceTree = "<group>"; };
+		5D2D2BBF6E9E8DCF0238460EEF6B5E34 /* Pods-LostTimeApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostTimeApplication-dummy.m"; sourceTree = "<group>"; };
+		5D6FC9C44F45525FD6E2E48A0C65E900 /* RAVCellPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVCellPresenter.m; path = TableController/RAVPresentersKit/TableViewController/RAVCellPresenter.m; sourceTree = "<group>"; };
+		619E153AC7E10BD16FC57836FDCFAA12 /* Pods-LostTimeApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66049DF9B482B69F0A01E3821CD44054 /* RAVPresenterP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVPresenterP.h; path = TableController/RAVPresentersKit/Core/RAVPresenterP.h; sourceTree = "<group>"; };
+		67A2BBBE711D6E9947B30EA4FAB448E2 /* Pods-LostTimeApplicationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplicationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6929A71188B8EE93A8EA2F7E553D6A74 /* Pods_LostTimeApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostTimeApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8A7B3AC46B4216E60E85DAA7BAB233 /* Pods-LostTimeApplicationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LostTimeApplicationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FF0511C9E53C27E785C00B15ABB6017 /* Pods-LostTimeApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplication-Info.plist"; sourceTree = "<group>"; };
+		7329EF7F2D7CFD375CF3658AD157AF12 /* RAVSectionHeaderFooterViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSectionHeaderFooterViewPresenter.h; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSectionHeaderFooterViewPresenter.h; sourceTree = "<group>"; };
+		77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		790B95CF2F92B62A8F120ED3CCB2886B /* _RAVDelegatesPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RAVDelegatesPresenter.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/_RAVDelegatesPresenter.h; sourceTree = "<group>"; };
+		7B1905EC9A3D8288247D4EBCFF552931 /* Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81CA12AF992283148516DA447C229484 /* Pods-LostTimeApplication-LostTimeApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplication-LostTimeApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81E0F9B1E850F6C3AEBBEA9D1072532D /* Pods-LostTimeApplicationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LostTimeApplicationTests.modulemap"; sourceTree = "<group>"; };
+		82C0287262315D7065FC48577E7E4B25 /* RAVPresentersKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVPresentersKit.h; path = TableController/RAVPresentersKit/TableViewController/RAVPresentersKit.h; sourceTree = "<group>"; };
+		835B6360A7F80D163CA2B9AA81D6D962 /* RAVHorizontalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVHorizontalViewController.m; path = TableController/RAVPresentersKit/HorizontalView/controller/RAVHorizontalViewController.m; sourceTree = "<group>"; };
+		837BE9B3F79C9232E2517266F3AAA050 /* RAVUPDelegatesStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUPDelegatesStore.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPDelegatesStore.h; sourceTree = "<group>"; };
+		8620C3B18DFC8EB5C06274165867DF4E /* RAVCellActionsDelegateP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVCellActionsDelegateP.h; path = TableController/RAVPresentersKit/TableViewController/RAVCellActionsDelegateP.h; sourceTree = "<group>"; };
+		876A8B2680CAE95C6BB829AA2ECB6D62 /* RAVSectionHeaderFooterViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSectionHeaderFooterViewPresenter.m; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSectionHeaderFooterViewPresenter.m; sourceTree = "<group>"; };
+		879868BF15D70B90EAB893150406B5FC /* RAVCollectionViewFlowHorizontalLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVCollectionViewFlowHorizontalLayout.m; path = TableController/RAVPresentersKit/HorizontalView/RAVCollectionViewFlowHorizontalLayout.m; sourceTree = "<group>"; };
+		8799C05928412DDD0D9E886A4E60488E /* Pods-LostTimeApplicationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LostTimeApplicationTests-dummy.m"; sourceTree = "<group>"; };
+		87B16D8FDA42930F80B4DB12C8B761A6 /* RAVCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVCollectionViewController.m; path = TableController/RAVPresentersKit/CollectionViewPresenters/RAVCollectionViewController.m; sourceTree = "<group>"; };
+		8816CFEA5E540D2116599B7A1BAAB1DA /* RAVUPBlockBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUPBlockBinding.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPBlockBinding.h; sourceTree = "<group>"; };
+		8890F748C69174D3F31038D2CF6408F8 /* RAVSectionFooterViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSectionFooterViewPresenter.h; path = TableController/RAVPresentersKit/TableViewController/RAVSectionFooterViewPresenter.h; sourceTree = "<group>"; };
+		8A99638C00ED83DCEEBB11631F84F406 /* RAVPresentersKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAVPresentersKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA98B7ED3A6C2EC1A743B19F9928DE2 /* RAVUPCallbacksStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVUPCallbacksStore.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPCallbacksStore.m; sourceTree = "<group>"; };
+		95F5C3CF16A536F1FA1DF09A44FD25E1 /* RAVTableControllerListModelMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableControllerListModelMemory.h; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerListModelMemory.h; sourceTree = "<group>"; };
+		960480D4F6E4FBC026A427AC03EFE646 /* RAVPresentersKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAVPresentersKit.modulemap; sourceTree = "<group>"; };
+		9B31A5E6BD75A002788B20C215713363 /* RAVPresentersStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVPresentersStore.h; path = TableController/RAVPresentersKit/Core/RAVPresentersStore.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E10C80CBC61AFE9E14AC87BFB28E474 /* RAVUPCallbacksStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUPCallbacksStore.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPCallbacksStore.h; sourceTree = "<group>"; };
+		9EE18B4CF4D2746AFF0F0D0445A36BFF /* RAVCollectionViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVCollectionViewPresenter.h; path = TableController/RAVPresentersKit/CollectionViewPresenters/RAVCollectionViewPresenter.h; sourceTree = "<group>"; };
+		A0D9C7B3E6526F2D84C8815E42CD31D2 /* RAVUPDelegatesStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVUPDelegatesStore.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPDelegatesStore.m; sourceTree = "<group>"; };
+		A27F8FF6EBD01BF0D07A8723773943C7 /* Pods-LostTimeApplication-LostTimeApplicationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A42F926B8EFEC89E9A5F81DFA9C17E86 /* Pods_LostTimeApplication_LostTimeApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostTimeApplication_LostTimeApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A731271295A6E4F0F30D8DBFC66F3985 /* RAVUPCellModelBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVUPCellModelBinding.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPCellModelBinding.m; sourceTree = "<group>"; };
+		A8B6F97115AAA1356C9A3A375DBB81A7 /* RAVHorizontalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVHorizontalViewController.h; path = TableController/RAVPresentersKit/HorizontalView/controller/RAVHorizontalViewController.h; sourceTree = "<group>"; };
+		A8E4F0744D31A0858DFF23D74450B4CA /* Pods-LostTimeApplicationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		AAAA20A150D7D11F69A1E9217FBFDA87 /* RAVManyModelCellsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVManyModelCellsPresenter.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/RAVManyModelCellsPresenter.m; sourceTree = "<group>"; };
+		AB3FC1279F21B0883943CEA76791D85B /* RAVTableControllerSectionModelMemory+RAVAppCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RAVTableControllerSectionModelMemory+RAVAppCategory.m"; path = "TableController/RAVPresentersKit/utils/RAVTableControllerSectionModelMemory+RAVAppCategory.m"; sourceTree = "<group>"; };
+		ACE4BD97ACC32EB8C211A649A290F3AB /* Pods-LostTimeApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LostTimeApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		B29960EC3A7C4160402BEB763567D518 /* RAVTableController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableController.h; path = TableController/RAVPresentersKit/TableViewController/RAVTableController.h; sourceTree = "<group>"; };
+		B2FC509C944DAA8E208FA5B7679FBFAD /* RAVScrollViewDelegateP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVScrollViewDelegateP.h; path = TableController/RAVPresentersKit/TableViewController/RAVScrollViewDelegateP.h; sourceTree = "<group>"; };
+		B3C0A8DF1F981664475098DB25CD05BD /* Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h"; sourceTree = "<group>"; };
+		B523545D5207724B3F8ED7B1E682CD81 /* RAVPresentersKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAVPresentersKit-dummy.m"; sourceTree = "<group>"; };
+		B718EEF70B4B523880A88EFA976B7913 /* RAVHorizontalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVHorizontalView.m; path = TableController/RAVPresentersKit/HorizontalView/RAVHorizontalView.m; sourceTree = "<group>"; };
+		B972F9B28FEB7AC6B91B23FB8CF51DD4 /* RAVPresentersKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAVPresentersKit.debug.xcconfig; sourceTree = "<group>"; };
+		BDEB8713A89DEE4C6B02687CFF9C39BA /* RAVTableControllerSectionModelP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableControllerSectionModelP.h; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerSectionModelP.h; sourceTree = "<group>"; };
+		BF540F9D79224B4EFBF8770286E3F6E8 /* Pods-LostTimeApplication-LostTimeApplicationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LostTimeApplication-LostTimeApplicationUITests.modulemap"; sourceTree = "<group>"; };
+		C1AB09F4C4378A524AAED8DB8F617CBB /* RAVSectionFooterViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSectionFooterViewPresenter.m; path = TableController/RAVPresentersKit/TableViewController/RAVSectionFooterViewPresenter.m; sourceTree = "<group>"; };
+		C2A8380D6EADF24103D6AD8614AEC6E9 /* RAVPresentersStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVPresentersStore.m; path = TableController/RAVPresentersKit/Core/RAVPresentersStore.m; sourceTree = "<group>"; };
+		C5E2B266A559DBF4B82CB7A01015605F /* RAVPresentersKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAVPresentersKit-umbrella.h"; sourceTree = "<group>"; };
+		CC43DEEEC12A2C28101221422DB355D4 /* RAVHorizontalViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVHorizontalViewPresenter.h; path = TableController/RAVPresentersKit/HorizontalView/controller/RAVHorizontalViewPresenter.h; sourceTree = "<group>"; };
+		CEECCC00FEC46BB165C8527DC9ECA9B3 /* RAVTableControllerListModelMemory+RAVAppCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RAVTableControllerListModelMemory+RAVAppCategory.h"; path = "TableController/RAVPresentersKit/utils/RAVTableControllerListModelMemory+RAVAppCategory.h"; sourceTree = "<group>"; };
+		D14E000295CCA0886EE924E46C8B3DF2 /* RAVSectionHeaderViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSectionHeaderViewPresenter.m; path = TableController/RAVPresentersKit/TableViewController/RAVSectionHeaderViewPresenter.m; sourceTree = "<group>"; };
+		D3605B889E948957F10F1CF3B72C9876 /* RAVUniversalDataViewP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVUniversalDataViewP.h; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/RAVUniversalDataViewP.h; sourceTree = "<group>"; };
+		D5DAF99275DDF8D2D14618B25B1BEEFD /* Pods-LostTimeApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD5BBDC2C78DF7FB2AD3B530356C297C /* Pods-LostTimeApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LostTimeApplication-umbrella.h"; sourceTree = "<group>"; };
+		E3066EDDA7D4402BF45C5AD3E57E9E24 /* RAVTableControllerListModelP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVTableControllerListModelP.h; path = TableController/RAVPresentersKit/Core/models/RAVTableControllerListModelP.h; sourceTree = "<group>"; };
+		E555676C36F2AB50AE61E0910637236C /* RAVHorCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVHorCollectionView.m; path = TableController/RAVPresentersKit/HorizontalView/RAVHorCollectionView.m; sourceTree = "<group>"; };
+		E903F508DB59DC7EA153864A9F8A9FDF /* RAVHorizontalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVHorizontalView.h; path = TableController/RAVPresentersKit/HorizontalView/RAVHorizontalView.h; sourceTree = "<group>"; };
+		E948DF0F05ED1C318EC8FEED5B94F710 /* _RAVDelegatesPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RAVDelegatesPresenter.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/_RAVDelegatesPresenter.m; sourceTree = "<group>"; };
+		EB6374CF36EBE698D0096F542C1CFA44 /* RAVCollectionViewFlowHorizontalLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVCollectionViewFlowHorizontalLayout.h; path = TableController/RAVPresentersKit/HorizontalView/RAVCollectionViewFlowHorizontalLayout.h; sourceTree = "<group>"; };
+		F80C1D54273FC4C29BB61D766E16DC02 /* RAVSingleModelHeaderFooterViewPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSingleModelHeaderFooterViewPresenter.h; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSingleModelHeaderFooterViewPresenter.h; sourceTree = "<group>"; };
+		F870BFC45099D4B33144A63D5A816187 /* RAVSingleModelHeaderFooterViewPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSingleModelHeaderFooterViewPresenter.m; path = TableController/RAVPresentersKit/TableViewController/singleModelPresenter/RAVSingleModelHeaderFooterViewPresenter.m; sourceTree = "<group>"; };
+		F88A600C92844339D11BDD1B5EAB59B7 /* RAVUPPresentersStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVUPPresentersStore.m; path = TableController/RAVPresentersKit/TableViewController/universalPresenter/private/RAVUPPresentersStore.m; sourceTree = "<group>"; };
+		FC373FB1DD8A72CB0685AED468214CA3 /* Pods-LostTimeApplication-LostTimeApplicationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LostTimeApplication-LostTimeApplicationUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A2C9D009F38E3139A2604A7BC063A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCD8353478108FB0AB644E6F42A49CF /* CoreGraphics.framework in Frameworks */,
+				9885BDE994AF127FEDAD9DCB57DFC1F5 /* Foundation.framework in Frameworks */,
+				BD51AC17F3990A3850A4868C774EA2FA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5099BEEF581F08E98555F4B733AA6EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B77E041ED42DC89930BB1659C450FD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850E8250F8ABAB3AE19D080E54B13EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63A8853AE3FD780E6B7406DA82601F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2A71EB4BC78A6E6EA60B2CE4114CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBCD2A3FCCDA8CC981ECA26279C5BA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E9A611B7FA8B84E0117394CA54DC92 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0736D3B470BD22F53756F2B1819F6210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCC241B2CD420FFA38D3F8628174BA8 /* Pods_LostTimeApplication.framework */,
+				A42F926B8EFEC89E9A5F81DFA9C17E86 /* Pods_LostTimeApplication_LostTimeApplicationUITests.framework */,
+				6929A71188B8EE93A8EA2F7E553D6A74 /* Pods_LostTimeApplicationTests.framework */,
+				8A99638C00ED83DCEEBB11631F84F406 /* RAVPresentersKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D760D321C2E3CD6930233FFF6B8F41C /* HorizontalViewPresenters */ = {
+			isa = PBXGroup;
+			children = (
+				EB6374CF36EBE698D0096F542C1CFA44 /* RAVCollectionViewFlowHorizontalLayout.h */,
+				879868BF15D70B90EAB893150406B5FC /* RAVCollectionViewFlowHorizontalLayout.m */,
+				5D00793D73AFC02F928C15B3F62C6C6A /* RAVHorCollectionView.h */,
+				E555676C36F2AB50AE61E0910637236C /* RAVHorCollectionView.m */,
+				E903F508DB59DC7EA153864A9F8A9FDF /* RAVHorizontalView.h */,
+				B718EEF70B4B523880A88EFA976B7913 /* RAVHorizontalView.m */,
+				A8B6F97115AAA1356C9A3A375DBB81A7 /* RAVHorizontalViewController.h */,
+				835B6360A7F80D163CA2B9AA81D6D962 /* RAVHorizontalViewController.m */,
+				CC43DEEEC12A2C28101221422DB355D4 /* RAVHorizontalViewPresenter.h */,
+				09361D5357BFB758E2E3786B1092FB12 /* RAVHorizontalViewPresenter.m */,
+			);
+			name = HorizontalViewPresenters;
+			sourceTree = "<group>";
+		};
+		2EAA00673B03DD6882E42F78DA09D4FC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				02E98CDC50538F88BA96491449072AFD /* NSArray+RAVSupport.h */,
+				16180434FDCCE231B2338E8CBAA388F4 /* NSArray+RAVSupport.m */,
+				66049DF9B482B69F0A01E3821CD44054 /* RAVPresenterP.h */,
+				9B31A5E6BD75A002788B20C215713363 /* RAVPresentersStore.h */,
+				C2A8380D6EADF24103D6AD8614AEC6E9 /* RAVPresentersStore.m */,
+				95F5C3CF16A536F1FA1DF09A44FD25E1 /* RAVTableControllerListModelMemory.h */,
+				420E8AC899969E60CD4D12901B94ABBE /* RAVTableControllerListModelMemory.m */,
+				CEECCC00FEC46BB165C8527DC9ECA9B3 /* RAVTableControllerListModelMemory+RAVAppCategory.h */,
+				1EC9B77E4F1B374A6B2C0D5340CFCDAF /* RAVTableControllerListModelMemory+RAVAppCategory.m */,
+				E3066EDDA7D4402BF45C5AD3E57E9E24 /* RAVTableControllerListModelP.h */,
+				09D967212CB80A2201238CD9EF84BDB8 /* RAVTableControllerSectionModelMemory.h */,
+				254E01686321C27264AFC38A34BC234E /* RAVTableControllerSectionModelMemory.m */,
+				23F9A841AEA2F8BC820058C887235756 /* RAVTableControllerSectionModelMemory+RAVAppCategory.h */,
+				AB3FC1279F21B0883943CEA76791D85B /* RAVTableControllerSectionModelMemory+RAVAppCategory.m */,
+				BDEB8713A89DEE4C6B02687CFF9C39BA /* RAVTableControllerSectionModelP.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		37E9A611B7FA8B84E0117394CA54DC92 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */,
+				543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */,
+				361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3B684B6F1D0B8BA189CBA32905DFA09C /* CollectionViewPresenters */ = {
+			isa = PBXGroup;
+			children = (
+				555F88800779C6B529AD59D0906D500E /* RAVCollectionViewController.h */,
+				87B16D8FDA42930F80B4DB12C8B761A6 /* RAVCollectionViewController.m */,
+				9EE18B4CF4D2746AFF0F0D0445A36BFF /* RAVCollectionViewPresenter.h */,
+				12B38DEE2CEBE70E524242F658A6E5EF /* RAVCollectionViewPresenter.m */,
+			);
+			name = CollectionViewPresenters;
+			sourceTree = "<group>";
+		};
+		44DB1C712900E0E398FFA3F54B36C369 /* Pods-LostTimeApplication */ = {
+			isa = PBXGroup;
+			children = (
+				0350922BCA3BF4D00A1AFD62F316DEF5 /* Pods-LostTimeApplication.modulemap */,
+				0DBADEE742BB4DE3CDEFD5ABC0E3FE9A /* Pods-LostTimeApplication-acknowledgements.markdown */,
+				D5DAF99275DDF8D2D14618B25B1BEEFD /* Pods-LostTimeApplication-acknowledgements.plist */,
+				5D2D2BBF6E9E8DCF0238460EEF6B5E34 /* Pods-LostTimeApplication-dummy.m */,
+				01A09B34963FB623D6847F0E0CAEE540 /* Pods-LostTimeApplication-frameworks.sh */,
+				6FF0511C9E53C27E785C00B15ABB6017 /* Pods-LostTimeApplication-Info.plist */,
+				DD5BBDC2C78DF7FB2AD3B530356C297C /* Pods-LostTimeApplication-umbrella.h */,
+				ACE4BD97ACC32EB8C211A649A290F3AB /* Pods-LostTimeApplication.debug.xcconfig */,
+				16DD640DD65D24DA21346FD9871EE633 /* Pods-LostTimeApplication.release.xcconfig */,
+			);
+			name = "Pods-LostTimeApplication";
+			path = "Target Support Files/Pods-LostTimeApplication";
+			sourceTree = "<group>";
+		};
+		66026C5C3243F663DFB55FE78814785C /* TableController */ = {
+			isa = PBXGroup;
+			children = (
+				790B95CF2F92B62A8F120ED3CCB2886B /* _RAVDelegatesPresenter.h */,
+				E948DF0F05ED1C318EC8FEED5B94F710 /* _RAVDelegatesPresenter.m */,
+				8620C3B18DFC8EB5C06274165867DF4E /* RAVCellActionsDelegateP.h */,
+				108E279E11B0C60CBD53063DC9C03486 /* RAVCellPresenter.h */,
+				5D6FC9C44F45525FD6E2E48A0C65E900 /* RAVCellPresenter.m */,
+				06852E49B91012E56B2DCA7F036FA185 /* RAVEditDelegateP.h */,
+				09170DB8A062655DA3B054FE1FADD2B7 /* RAVManyModelCellsPresenter.h */,
+				AAAA20A150D7D11F69A1E9217FBFDA87 /* RAVManyModelCellsPresenter.m */,
+				82C0287262315D7065FC48577E7E4B25 /* RAVPresentersKit.h */,
+				B2FC509C944DAA8E208FA5B7679FBFAD /* RAVScrollViewDelegateP.h */,
+				8890F748C69174D3F31038D2CF6408F8 /* RAVSectionFooterViewPresenter.h */,
+				C1AB09F4C4378A524AAED8DB8F617CBB /* RAVSectionFooterViewPresenter.m */,
+				7329EF7F2D7CFD375CF3658AD157AF12 /* RAVSectionHeaderFooterViewPresenter.h */,
+				876A8B2680CAE95C6BB829AA2ECB6D62 /* RAVSectionHeaderFooterViewPresenter.m */,
+				5390743426750B938FD610F8D7B8B0BF /* RAVSectionHeaderViewPresenter.h */,
+				D14E000295CCA0886EE924E46C8B3DF2 /* RAVSectionHeaderViewPresenter.m */,
+				53FF1FDDB0BE203C19C92C75F6B70267 /* RAVSectionIndexesDelegateP.h */,
+				2461E78A375B97CD9F663551CC4B0091 /* RAVSectionModelPresenterP.h */,
+				3463C76BA458B44CC37F8E02FADED9D8 /* RAVSingleModelCellPresenter.h */,
+				4D0D979762996258827C2C64321F0FA0 /* RAVSingleModelCellPresenter.m */,
+				F80C1D54273FC4C29BB61D766E16DC02 /* RAVSingleModelHeaderFooterViewPresenter.h */,
+				F870BFC45099D4B33144A63D5A816187 /* RAVSingleModelHeaderFooterViewPresenter.m */,
+				B29960EC3A7C4160402BEB763567D518 /* RAVTableController.h */,
+				0833800432CC14A7EFC0FB95D216E802 /* RAVTableController.m */,
+				1D34C2D28B3E76BD2488E44C703D15B2 /* RAVTableController_Subclassing.h */,
+				D3605B889E948957F10F1CF3B72C9876 /* RAVUniversalDataViewP.h */,
+				8816CFEA5E540D2116599B7A1BAAB1DA /* RAVUPBlockBinding.h */,
+				241039F353CC03B074F97FD09ECC3805 /* RAVUPBlockBinding.m */,
+				9E10C80CBC61AFE9E14AC87BFB28E474 /* RAVUPCallbacksStore.h */,
+				8DA98B7ED3A6C2EC1A743B19F9928DE2 /* RAVUPCallbacksStore.m */,
+				0C18D53E1FC6EE203D6608811DF60453 /* RAVUPCellModelBinding.h */,
+				A731271295A6E4F0F30D8DBFC66F3985 /* RAVUPCellModelBinding.m */,
+				837BE9B3F79C9232E2517266F3AAA050 /* RAVUPDelegatesStore.h */,
+				A0D9C7B3E6526F2D84C8815E42CD31D2 /* RAVUPDelegatesStore.m */,
+				5C2CCA8ABA4978E63877C487CC6EAD88 /* RAVUPPresentersStore.h */,
+				F88A600C92844339D11BDD1B5EAB59B7 /* RAVUPPresentersStore.m */,
+			);
+			name = TableController;
+			sourceTree = "<group>";
+		};
+		6F214D86FB3D1B9846A550FB886E02A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				960480D4F6E4FBC026A427AC03EFE646 /* RAVPresentersKit.modulemap */,
+				B523545D5207724B3F8ED7B1E682CD81 /* RAVPresentersKit-dummy.m */,
+				3E6B0CEDFA2C77D309222B9F4C84BB95 /* RAVPresentersKit-Info.plist */,
+				4515478CC53BA9900187B97653A1E977 /* RAVPresentersKit-prefix.pch */,
+				C5E2B266A559DBF4B82CB7A01015605F /* RAVPresentersKit-umbrella.h */,
+				B972F9B28FEB7AC6B91B23FB8CF51DD4 /* RAVPresentersKit.debug.xcconfig */,
+				35E29D341903FA6D6FE43ED8EDE8651F /* RAVPresentersKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAVPresentersKit";
+			sourceTree = "<group>";
+		};
+		78BD703D704BCE37D35451BC1C4E1E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFF189B3FF6C4F13DBFA6830EF1103 /* RAVPresentersKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				78BD703D704BCE37D35451BC1C4E1E73 /* Pods */,
+				0736D3B470BD22F53756F2B1819F6210 /* Products */,
+				ED039DEA8D13D0336A4B4B826D34877C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DADC25EF718713638154359663AA4980 /* Pods-LostTimeApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				81E0F9B1E850F6C3AEBBEA9D1072532D /* Pods-LostTimeApplicationTests.modulemap */,
+				6C8A7B3AC46B4216E60E85DAA7BAB233 /* Pods-LostTimeApplicationTests-acknowledgements.markdown */,
+				67A2BBBE711D6E9947B30EA4FAB448E2 /* Pods-LostTimeApplicationTests-acknowledgements.plist */,
+				8799C05928412DDD0D9E886A4E60488E /* Pods-LostTimeApplicationTests-dummy.m */,
+				A8E4F0744D31A0858DFF23D74450B4CA /* Pods-LostTimeApplicationTests-Info.plist */,
+				0B8AC1CC70A27FE64598628F72E2FB6D /* Pods-LostTimeApplicationTests-umbrella.h */,
+				619E153AC7E10BD16FC57836FDCFAA12 /* Pods-LostTimeApplicationTests.debug.xcconfig */,
+				1B6407C483D55E0748B3767DF924DF81 /* Pods-LostTimeApplicationTests.release.xcconfig */,
+			);
+			name = "Pods-LostTimeApplicationTests";
+			path = "Target Support Files/Pods-LostTimeApplicationTests";
+			sourceTree = "<group>";
+		};
+		EB934B28DF556970AF3C4FEAE4F3D998 /* Pods-LostTimeApplication-LostTimeApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF540F9D79224B4EFBF8770286E3F6E8 /* Pods-LostTimeApplication-LostTimeApplicationUITests.modulemap */,
+				3E9157B00FCFA95A6B6A0F40C463C786 /* Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.markdown */,
+				7B1905EC9A3D8288247D4EBCFF552931 /* Pods-LostTimeApplication-LostTimeApplicationUITests-acknowledgements.plist */,
+				26CA065CCF013C8AE64806AE78E140CE /* Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m */,
+				A27F8FF6EBD01BF0D07A8723773943C7 /* Pods-LostTimeApplication-LostTimeApplicationUITests-frameworks.sh */,
+				FC373FB1DD8A72CB0685AED468214CA3 /* Pods-LostTimeApplication-LostTimeApplicationUITests-Info.plist */,
+				B3C0A8DF1F981664475098DB25CD05BD /* Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h */,
+				3B989369FC177F8E9ECB2E2C8621BC51 /* Pods-LostTimeApplication-LostTimeApplicationUITests.debug.xcconfig */,
+				81CA12AF992283148516DA447C229484 /* Pods-LostTimeApplication-LostTimeApplicationUITests.release.xcconfig */,
+			);
+			name = "Pods-LostTimeApplication-LostTimeApplicationUITests";
+			path = "Target Support Files/Pods-LostTimeApplication-LostTimeApplicationUITests";
+			sourceTree = "<group>";
+		};
+		ED039DEA8D13D0336A4B4B826D34877C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44DB1C712900E0E398FFA3F54B36C369 /* Pods-LostTimeApplication */,
+				EB934B28DF556970AF3C4FEAE4F3D998 /* Pods-LostTimeApplication-LostTimeApplicationUITests */,
+				DADC25EF718713638154359663AA4980 /* Pods-LostTimeApplicationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7CFF189B3FF6C4F13DBFA6830EF1103 /* RAVPresentersKit */ = {
+			isa = PBXGroup;
+			children = (
+				3B684B6F1D0B8BA189CBA32905DFA09C /* CollectionViewPresenters */,
+				2EAA00673B03DD6882E42F78DA09D4FC /* Core */,
+				1D760D321C2E3CD6930233FFF6B8F41C /* HorizontalViewPresenters */,
+				6F214D86FB3D1B9846A550FB886E02A7 /* Support Files */,
+				66026C5C3243F663DFB55FE78814785C /* TableController */,
+			);
+			path = RAVPresentersKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		016D4D8B7F4594433DE34AB41A47E2C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4838014FF0235896EE5B2300D8747136 /* _RAVDelegatesPresenter.h in Headers */,
+				B1F9A89FA63C28716B73E0FBDF46C741 /* NSArray+RAVSupport.h in Headers */,
+				10440BFAD33F7B965D187056F0DA7913 /* RAVCellActionsDelegateP.h in Headers */,
+				2317FC62F8704275EF114CF9C185107A /* RAVCellPresenter.h in Headers */,
+				EC77787EF6C1BBB0870B0AA108FE19C8 /* RAVCollectionViewController.h in Headers */,
+				112674EBDD8FC3DA7C2EE3F986E62999 /* RAVCollectionViewFlowHorizontalLayout.h in Headers */,
+				718872BC9761BAB70A3F7152D8821E27 /* RAVCollectionViewPresenter.h in Headers */,
+				0F5D9456CC7A9C109F0FB71966F7B28B /* RAVEditDelegateP.h in Headers */,
+				572A8E3C86574AAF178B92E2294BB664 /* RAVHorCollectionView.h in Headers */,
+				5DAF010997266C3507E873EE9C30DE7C /* RAVHorizontalView.h in Headers */,
+				EBF79354FD92A51FDA72AFBDC6273C62 /* RAVHorizontalViewController.h in Headers */,
+				A2236710436026AB4C39212C8EC018B4 /* RAVHorizontalViewPresenter.h in Headers */,
+				7EBFBED0C0A377C4BF9383411CAD0D8E /* RAVManyModelCellsPresenter.h in Headers */,
+				75EED76BBF72E83E3A31EE1791D97947 /* RAVPresenterP.h in Headers */,
+				38716DA6BC1B0B2F221648A34B694629 /* RAVPresentersKit-umbrella.h in Headers */,
+				C5C4B4D2DDFFFB2315A338230C67B119 /* RAVPresentersKit.h in Headers */,
+				7C1C81DE6BFFF8E18A512CB6BABB05BC /* RAVPresentersStore.h in Headers */,
+				7098DB88683401C48AA9B96783536D2C /* RAVScrollViewDelegateP.h in Headers */,
+				3E6EEA9E1D3464BF58E2C0A926640893 /* RAVSectionFooterViewPresenter.h in Headers */,
+				06D181755EA97F4C83EF1B6977382987 /* RAVSectionHeaderFooterViewPresenter.h in Headers */,
+				1FDEB8E61F34F355327CBC9E4DDBA6FB /* RAVSectionHeaderViewPresenter.h in Headers */,
+				35DDF5E5313C233C2A4D57D83CF69DB8 /* RAVSectionIndexesDelegateP.h in Headers */,
+				F39D556C72CF847C2749C2CE180A9FE7 /* RAVSectionModelPresenterP.h in Headers */,
+				D8DFABC279B3D9BCCF6ABE64840D24A3 /* RAVSingleModelCellPresenter.h in Headers */,
+				4946B6954AAE92385247FE9619577A7B /* RAVSingleModelHeaderFooterViewPresenter.h in Headers */,
+				5CAA7363303472456242E23ABE55A4EA /* RAVTableController.h in Headers */,
+				B0E9AD996BF284F04C5D54326776F8AB /* RAVTableController_Subclassing.h in Headers */,
+				3BFFEE1EB628D1D91983B0C4625AD5E6 /* RAVTableControllerListModelMemory+RAVAppCategory.h in Headers */,
+				8EEF9DBD6713DD4447724A9698E80EF4 /* RAVTableControllerListModelMemory.h in Headers */,
+				D19786AE563D5F21592D395D0451CEA9 /* RAVTableControllerListModelP.h in Headers */,
+				A9BED4D0DDD0C0E1AD8B7DEF07192B21 /* RAVTableControllerSectionModelMemory+RAVAppCategory.h in Headers */,
+				A41D3A33A69532EF2142CA2480BA8A14 /* RAVTableControllerSectionModelMemory.h in Headers */,
+				8A8E686DC4FB2394694517699DD8CA22 /* RAVTableControllerSectionModelP.h in Headers */,
+				8656E53D0FFD550C0D9B23DF159DD710 /* RAVUniversalDataViewP.h in Headers */,
+				D4C75F980B3E11F85EAA6E641B8891E6 /* RAVUPBlockBinding.h in Headers */,
+				F6C15B8ACE07874143501CEF4FFE3F71 /* RAVUPCallbacksStore.h in Headers */,
+				4B63A77A4DF6EECB2AC3800D40747F92 /* RAVUPCellModelBinding.h in Headers */,
+				CDE4E63F0369CCBF473A2288C081A2C9 /* RAVUPDelegatesStore.h in Headers */,
+				83812D12D7E310ED838D0E5174B8652D /* RAVUPPresentersStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D032AD467F5304AD409D0FD740AA24C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575A3CAC7E852FE0C1C4C2930AEE45E4 /* Pods-LostTimeApplication-LostTimeApplicationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D32147676BD469F0A1F314F13C0CF63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3648A4E82BB61E283827D064B13A6DB /* Pods-LostTimeApplication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA3154E866EC0DC748D1D9A2C8F8B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91C294AA35EF86C3398AEBF5726F91B /* Pods-LostTimeApplicationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13DAFC0E0DD128495D84DF7A4685A642 /* Pods-LostTimeApplication-LostTimeApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B342269982EE5B644E1C2802C79878 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplication-LostTimeApplicationUITests" */;
+			buildPhases = (
+				0D032AD467F5304AD409D0FD740AA24C /* Headers */,
+				A733786614F5004BCABA85433EB8307A /* Sources */,
+				850E8250F8ABAB3AE19D080E54B13EB6 /* Frameworks */,
+				283C28283E5F9A6D3725362B065A08C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016E88C56AC8FBE3C725704F85B822F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LostTimeApplication-LostTimeApplicationUITests";
+			productName = "Pods-LostTimeApplication-LostTimeApplicationUITests";
+			productReference = A42F926B8EFEC89E9A5F81DFA9C17E86 /* Pods_LostTimeApplication_LostTimeApplicationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B628FAC881E3EC93C0EADC13BF0DCA64 /* Pods-LostTimeApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B1F430F94358A39230998F2E9EA663 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplicationTests" */;
+			buildPhases = (
+				8FA3154E866EC0DC748D1D9A2C8F8B28 /* Headers */,
+				7FBD862BF7496676654C3704D4D8F9DB /* Sources */,
+				B9E2A71EB4BC78A6E6EA60B2CE4114CB /* Frameworks */,
+				9EB59250445C851AA6DBD2277055D49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4745DA95103D001A4690494CE81B1E09 /* PBXTargetDependency */,
+			);
+			name = "Pods-LostTimeApplicationTests";
+			productName = "Pods-LostTimeApplicationTests";
+			productReference = 6929A71188B8EE93A8EA2F7E553D6A74 /* Pods_LostTimeApplicationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4B8296D1ECB5BDBBC5E1567F6CC2D3C /* RAVPresentersKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E483822964FE77113085E0742AB1A5E /* Build configuration list for PBXNativeTarget "RAVPresentersKit" */;
+			buildPhases = (
+				016D4D8B7F4594433DE34AB41A47E2C1 /* Headers */,
+				826DDB3BB9D59702EFFD11D208B93FA1 /* Sources */,
+				25A2C9D009F38E3139A2604A7BC063A0 /* Frameworks */,
+				F7BAF7E978BE7D9C16F668BF4E262036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAVPresentersKit;
+			productName = RAVPresentersKit;
+			productReference = 8A99638C00ED83DCEEBB11631F84F406 /* RAVPresentersKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE9F1DD334A573C7A3AEEB95DE3636A2 /* Pods-LostTimeApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD99E3001FE5650BA399647B8A27C02 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplication" */;
+			buildPhases = (
+				0D32147676BD469F0A1F314F13C0CF63 /* Headers */,
+				79FE73D63D86A68A516D95E0A7F4AB84 /* Sources */,
+				5099BEEF581F08E98555F4B733AA6EDD /* Frameworks */,
+				6DFE55175CB33DF93BB11AC495C50785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F3E3E854A3C46109BD45D26FFF8BD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-LostTimeApplication";
+			productName = "Pods-LostTimeApplication";
+			productReference = 2CCC241B2CD420FFA38D3F8628174BA8 /* Pods_LostTimeApplication.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0736D3B470BD22F53756F2B1819F6210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9F1DD334A573C7A3AEEB95DE3636A2 /* Pods-LostTimeApplication */,
+				13DAFC0E0DD128495D84DF7A4685A642 /* Pods-LostTimeApplication-LostTimeApplicationUITests */,
+				B628FAC881E3EC93C0EADC13BF0DCA64 /* Pods-LostTimeApplicationTests */,
+				E4B8296D1ECB5BDBBC5E1567F6CC2D3C /* RAVPresentersKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283C28283E5F9A6D3725362B065A08C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFE55175CB33DF93BB11AC495C50785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB59250445C851AA6DBD2277055D49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAF7E978BE7D9C16F668BF4E262036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FE73D63D86A68A516D95E0A7F4AB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779D42F46444106716C30A33A300EE83 /* Pods-LostTimeApplication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FBD862BF7496676654C3704D4D8F9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82A6698A8D69486BD3F18F3923B36E4 /* Pods-LostTimeApplicationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DDB3BB9D59702EFFD11D208B93FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF895ECDA9C63743BA20A5CB4F77F96 /* _RAVDelegatesPresenter.m in Sources */,
+				B6F3EAACA8CA26C1ADAA4A40381CA2CB /* NSArray+RAVSupport.m in Sources */,
+				55BB060957484420D90FF987C1CFD542 /* RAVCellPresenter.m in Sources */,
+				07C4F524AA687E04CB98922C86059D35 /* RAVCollectionViewController.m in Sources */,
+				BCEF6598BE79A24FD27BC7BE9A9293E9 /* RAVCollectionViewFlowHorizontalLayout.m in Sources */,
+				214C97D0433B9658C9AEA62D1E66BF5F /* RAVCollectionViewPresenter.m in Sources */,
+				DD6FB9D5CCB9DEAF03472C10A969A78E /* RAVHorCollectionView.m in Sources */,
+				56D11EC43E30178D67327799677881C3 /* RAVHorizontalView.m in Sources */,
+				D42E54B95A588AD2B65769833BA3F470 /* RAVHorizontalViewController.m in Sources */,
+				329F6F4F1DFEEFD38E265E14A5A5BC04 /* RAVHorizontalViewPresenter.m in Sources */,
+				C1F8B2BEC64DA84D24987E2D7C9E07C7 /* RAVManyModelCellsPresenter.m in Sources */,
+				4A344CEC7E840B755CDD7B7102EF35AF /* RAVPresentersKit-dummy.m in Sources */,
+				8B0A3E81E94B444A12797310D7E28712 /* RAVPresentersStore.m in Sources */,
+				8647EB4FC924768A4D18420E5AC749A7 /* RAVSectionFooterViewPresenter.m in Sources */,
+				2D21559012621D35D2D67C7B7B4AD88E /* RAVSectionHeaderFooterViewPresenter.m in Sources */,
+				2675C8421B19A6DB22C0B0F0C2A0D41F /* RAVSectionHeaderViewPresenter.m in Sources */,
+				96C5AA21ACA63E3AEE568D0D36635FB3 /* RAVSingleModelCellPresenter.m in Sources */,
+				31D06CE6933E8625B810EE8AE17BB1B4 /* RAVSingleModelHeaderFooterViewPresenter.m in Sources */,
+				4FAB0416F8C45C2481E621E7AAAFE994 /* RAVTableController.m in Sources */,
+				F168F0FDC43980A094F790212526DBF2 /* RAVTableControllerListModelMemory+RAVAppCategory.m in Sources */,
+				7CB378B00425D269BB6F446C4A664600 /* RAVTableControllerListModelMemory.m in Sources */,
+				E32AC899035BE863DDECD73CEAA1BAC5 /* RAVTableControllerSectionModelMemory+RAVAppCategory.m in Sources */,
+				B87257E740EB6B36B5749D7EC74AE6C7 /* RAVTableControllerSectionModelMemory.m in Sources */,
+				379A824230457B4BCFEA18A85E4D4DD8 /* RAVUPBlockBinding.m in Sources */,
+				D069A8CABFFFAA297225A9BFBDA6E1E4 /* RAVUPCallbacksStore.m in Sources */,
+				951B6BCCC54935DB9A6C8181DF649FCC /* RAVUPCellModelBinding.m in Sources */,
+				9629F48BCE4E8ECA5107E2448C7B2169 /* RAVUPDelegatesStore.m in Sources */,
+				F0CAE46AB13176A34D29E861FF00CBB9 /* RAVUPPresentersStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A733786614F5004BCABA85433EB8307A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107C8A4D48C8B0120953B851B5AF9DD7 /* Pods-LostTimeApplication-LostTimeApplicationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016E88C56AC8FBE3C725704F85B822F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAVPresentersKit;
+			target = E4B8296D1ECB5BDBBC5E1567F6CC2D3C /* RAVPresentersKit */;
+			targetProxy = 0E6EA7768C3CED14AC9DFC6314CA9FC1 /* PBXContainerItemProxy */;
+		};
+		09F3E3E854A3C46109BD45D26FFF8BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAVPresentersKit;
+			target = E4B8296D1ECB5BDBBC5E1567F6CC2D3C /* RAVPresentersKit */;
+			targetProxy = 5D25F24B269EC51299ECEFAC5EBFC646 /* PBXContainerItemProxy */;
+		};
+		4745DA95103D001A4690494CE81B1E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LostTimeApplication";
+			target = EE9F1DD334A573C7A3AEEB95DE3636A2 /* Pods-LostTimeApplication */;
+			targetProxy = 2907A692C678472E3A9F96DCDBBBCB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B07F834C851E561065BED9CEDFB1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81CA12AF992283148516DA447C229484 /* Pods-LostTimeApplication-LostTimeApplicationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplication-LostTimeApplicationUITests/Pods-LostTimeApplication-LostTimeApplicationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplication-LostTimeApplicationUITests/Pods-LostTimeApplication-LostTimeApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		101E1141A3A81CDAFAFD1A4BADCB1496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE4BD97ACC32EB8C211A649A290F3AB /* Pods-LostTimeApplication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplication/Pods-LostTimeApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplication/Pods-LostTimeApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18588EDC513DCA814D333ED207DDBDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619E153AC7E10BD16FC57836FDCFAA12 /* Pods-LostTimeApplicationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplicationTests/Pods-LostTimeApplicationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplicationTests/Pods-LostTimeApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62FDDBEB19AE9517224BBF8CBDDC40B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6407C483D55E0748B3767DF924DF81 /* Pods-LostTimeApplicationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplicationTests/Pods-LostTimeApplicationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplicationTests/Pods-LostTimeApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		728E018A55129C296B6945394A9107F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DD640DD65D24DA21346FD9871EE633 /* Pods-LostTimeApplication.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplication/Pods-LostTimeApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplication/Pods-LostTimeApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78057559B98E0403E9314CB149BBFAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B989369FC177F8E9ECB2E2C8621BC51 /* Pods-LostTimeApplication-LostTimeApplicationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LostTimeApplication-LostTimeApplicationUITests/Pods-LostTimeApplication-LostTimeApplicationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LostTimeApplication-LostTimeApplicationUITests/Pods-LostTimeApplication-LostTimeApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2A39022135AFB54A45C104C7C6E3EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B972F9B28FEB7AC6B91B23FB8CF51DD4 /* RAVPresentersKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAVPresentersKit/RAVPresentersKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAVPresentersKit/RAVPresentersKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAVPresentersKit/RAVPresentersKit.modulemap";
+				PRODUCT_MODULE_NAME = RAVPresentersKit;
+				PRODUCT_NAME = RAVPresentersKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5282DAEC2AF7818BDD8A86552E20338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E29D341903FA6D6FE43ED8EDE8651F /* RAVPresentersKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAVPresentersKit/RAVPresentersKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAVPresentersKit/RAVPresentersKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAVPresentersKit/RAVPresentersKit.modulemap";
+				PRODUCT_MODULE_NAME = RAVPresentersKit;
+				PRODUCT_NAME = RAVPresentersKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E483822964FE77113085E0742AB1A5E /* Build configuration list for PBXNativeTarget "RAVPresentersKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A39022135AFB54A45C104C7C6E3EDF /* Debug */,
+				B5282DAEC2AF7818BDD8A86552E20338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B342269982EE5B644E1C2802C79878 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplication-LostTimeApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78057559B98E0403E9314CB149BBFAB9 /* Debug */,
+				09B07F834C851E561065BED9CEDFB1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B1F430F94358A39230998F2E9EA663 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18588EDC513DCA814D333ED207DDBDF1 /* Debug */,
+				62FDDBEB19AE9517224BBF8CBDDC40B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD99E3001FE5650BA399647B8A27C02 /* Build configuration list for PBXNativeTarget "Pods-LostTimeApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101E1141A3A81CDAFAFD1A4BADCB1496 /* Debug */,
+				728E018A55129C296B6945394A9107F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
