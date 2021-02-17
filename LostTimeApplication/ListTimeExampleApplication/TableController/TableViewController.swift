@@ -31,7 +31,9 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.models = self.produceModels()
+        self.produceModels(withCompletion: { (list:ModelsList) in
+            self.models = list
+        })
     }
 
     //MARK: UITableViewDataSource
@@ -73,17 +75,21 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         return text
     }
 
-    private func produceModels() -> ModelsList {
-        var models = ModelsList()
+    private func produceModels(withCompletion completion: @escaping (_ list: ModelsList) -> Void) -> Void {
+        DispatchQueue.global(qos: .userInitiated).async {
+            var models = ModelsList()
 
-        let randomGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10)
-        let bigValuesGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10000000)
-        for _ in 0..<10000 {
-            Thread.sleep(forTimeInterval: 0.00001)
-            let model = DataModel(text: "Hello \(bigValuesGenerator.nextInt())", value: randomGenerator.nextInt(), numberOfItems: UInt(randomGenerator.nextInt()))
-            models.append(model)
+            let randomGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10)
+            let bigValuesGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10000000)
+            for _ in 0..<10000 {
+                Thread.sleep(forTimeInterval: 0.00001)
+                let model = DataModel(text: "Hello \(bigValuesGenerator.nextInt())", value: randomGenerator.nextInt(), numberOfItems: UInt(randomGenerator.nextInt()))
+                models.append(model)
+            }
+
+            DispatchQueue.main.async {
+                completion(models)
+            }
         }
-
-        return models
     }
 }
