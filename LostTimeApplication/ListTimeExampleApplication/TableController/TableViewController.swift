@@ -42,7 +42,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: DataTableViewCell! = tableView.dequeueReusableCell(withIdentifier: "DataTableViewCell", for: indexPath) as? DataTableViewCell
+        let cell: DataTableViewCell = tableView.dequeueReusableCell(withIdentifier: "DataTableViewCell", for: indexPath) as! DataTableViewCell
         let model = self.model(for: indexPath)
         cell.valueLabel.text = "\(model.value)";
         cell.longTextLabel.text = self.longText(forModel: model)
@@ -51,10 +51,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let model = self.model(for: indexPath)
-        let height = DataTableViewCell.hintHeight(for:self.longText(forModel: model),
-                                                  valueText: "\(model.value)",
-                                                  withWidth: tableView.bounds.width)
+        let height = DataTableViewCell.hintHeight()
         return height
     }
 

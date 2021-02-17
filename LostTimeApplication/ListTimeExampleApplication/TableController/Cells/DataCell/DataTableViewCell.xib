@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="736" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEV-Cn-pZc">
-                        <rect key="frame" x="16" y="16" width="236.5" height="101.5"/>
+                        <rect key="frame" x="16" y="16" width="236.5" height="113"/>
                         <string key="text">dklfjds kds jkds lddj lksdjf sdlf dskjf kdsjf kdsjf kdsfj kdlsf jsdjf kldsjf ksdjf ksdjf kldsjf dskf dskf sf js fksd fjksdljf lksdjf sdjf sdlfj dsfj ldsj f</string>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -32,6 +32,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="mFv-EQ-xxs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="A7j-Hq-APP"/>
+                    <constraint firstAttribute="bottom" secondItem="jEV-Cn-pZc" secondAttribute="bottom" constant="16" id="JzU-gC-yrT"/>
                     <constraint firstAttribute="trailing" secondItem="mFv-EQ-xxs" secondAttribute="trailing" constant="16" id="r65-HQ-O5t"/>
                     <constraint firstItem="jEV-Cn-pZc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="u6d-BR-z4C"/>
                     <constraint firstItem="jEV-Cn-pZc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="x4o-DR-Hln"/>

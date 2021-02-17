@@ -31,18 +31,8 @@ class DataTableViewCell: UITableViewCell {
         self.updateItems()
     }
 
-    static func hintHeight(for longText: String, valueText: String, withWidth width: CGFloat) -> CGFloat {
-        let widthForLayout: CGFloat = width - 16.0 - 16.0
-        let labelsPadding: CGFloat = 10.0
-
-        let sizeForValue: CGSize = valueText.boundingRect(with: CGRect.infinite.size,
-                                                          options: .usesLineFragmentOrigin,
-                                                          attributes: [.font: UIFont.systemFont(ofSize: 17.0)],
-                                                          context: nil).size
-        let widthForDescription = widthForLayout - sizeForValue.width - labelsPadding
-        let heightOfDescription = longText.height(withConstrainedWidth: widthForDescription,
-                                                  font: .systemFont(ofSize: 17.0))
-        return heightOfDescription + 16.0 * 2.0
+    static func hintHeight() -> CGFloat {
+        return UITableView.automaticDimension
     }
 
     private func updateItems() {
