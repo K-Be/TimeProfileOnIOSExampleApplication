@@ -114,10 +114,11 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.progress = progress
         DispatchQueue.global(qos: .userInitiated).async {
             var models = ModelsList()
+            models.reserveCapacity(countModels)
 
             let randomGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10)
             let bigValuesGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10000000)
-            for index in 0..<10000000 {
+            for index in 0..<countModels {
                 let model = DataModel(text: "Hello \(bigValuesGenerator.nextInt())", value: randomGenerator.nextInt(), numberOfItems: UInt(randomGenerator.nextInt()))
                 models.append(model)
                 if index % 10000 == 0 {
