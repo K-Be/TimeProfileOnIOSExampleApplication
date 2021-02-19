@@ -24,6 +24,16 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
             tableView.dataSource = self
         }
     }
+    @IBOutlet var progressView : UIProgressView!
+    var progress: Progress?
+    var progressObservation: NSKeyValueObservation?
+    let updateProgressOperationsQueue: OperationQueue = {
+        let queue = OperationQueue()
+        queue.maxConcurrentOperationCount = 1
+        queue.qualityOfService = .background
+        return queue
+    }()
+
     var models = ModelsList() {
         didSet {
             self.tableView.reloadData()
@@ -38,7 +48,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
                                          style: .plain,
                                          target: self,
                                          action: #selector(schedule100Timers))
-        let add1000Items = UIBarButtonItem(title: "1000",
+        let add1000Items = UIBarButtonItem(title: "100000",
                                            style: .plain,
                                            target: self,
                                            action: #selector(schedule1000Timers))
@@ -95,19 +105,28 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     private func produceModels(withCompletion completion: @escaping (_ list: ModelsList) -> Void) -> Void {
+        let countModels = 10000000
+        let progress = Progress(totalUnitCount: Int64(countModels))
+        self.progressObservation = progress.observe(\.fractionCompleted,
+                                                    changeHandler: { [weak self](sender:Progress, _) in
+                                                      self?.scheduleUpdateProgress(with: sender.fractionCompleted)
+                                                    })
+        self.progress = progress
         DispatchQueue.global(qos: .userInitiated).async {
             var models = ModelsList()
 
             let randomGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10)
             let bigValuesGenerator = GKRandomDistribution(lowestValue: 1, highestValue: 10000000)
-            for _ in 0..<10000 {
-                Thread.sleep(forTimeInterval: 0.00001)
+            for _ in 0..<10000000 {
                 let model = DataModel(text: "Hello \(bigValuesGenerator.nextInt())", value: randomGenerator.nextInt(), numberOfItems: UInt(randomGenerator.nextInt()))
                 models.append(model)
+                progress.completedUnitCount = progress.completedUnitCount + 1
             }
 
             DispatchQueue.main.async {
                 completion(models)
+                self.progressObservation = nil
+                self.progress = nil
             }
         }
     }
@@ -146,7 +165,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     @objc private func schedule1000Timers() {
-        self.scheduleNext(1000)
+        self.scheduleNext(100000)
     }
 
     var lastScheduledIndex = -1
@@ -157,6 +176,21 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
         for i in startIndex..<min(startIndex+num, self.models.count - 1) {
             self.scheduleTimer(forModelAt: i)
+        }
+    }
+
+    private func scheduleUpdateProgress(with value: Double) {
+        let operations = self.updateProgressOperationsQueue.operations
+        operations.forEach { (op:Operation) in
+            guard !op.isCancelled && !op.isExecuting && !op.isFinished else {
+                return
+            }
+            op.cancel()
+        }
+        self.updateProgressOperationsQueue.schedule {
+            DispatchQueue.main.sync {
+                self.progressView.progress = Float(value)
+            }
         }
     }
 }

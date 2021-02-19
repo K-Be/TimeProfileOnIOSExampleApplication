@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewController" customModule="ListTimeExampleApplication" customModuleProvider="target">
             <connections>
+                <outlet property="progressView" destination="V5z-Nm-cww" id="eC4-UC-5bj"/>
                 <outlet property="tableView" destination="vGB-Sn-23C" id="zNJ-jD-E59"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -24,9 +25,17 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V5z-Nm-cww">
+                    <rect key="frame" x="0.0" y="44" width="414" height="4"/>
+                </progressView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="V5z-Nm-cww" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="SLt-Ls-VKt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="V5z-Nm-cww" secondAttribute="trailing" id="ZAf-HF-z6n"/>
+                <constraint firstItem="V5z-Nm-cww" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="c6W-16-DG2"/>
+            </constraints>
             <point key="canvasLocation" x="-175.36231884057972" y="128.57142857142856"/>
         </view>
     </objects>
