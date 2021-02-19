@@ -125,9 +125,16 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
             }
             let model = self.models[index]
             model.value += 1
-            //наблюдаются интересные глюки
-            //self.tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .none)
-            self.tableView.reloadData()
+            guard let visibleIndexes = self.tableView.indexPathsForVisibleRows else {
+                return
+            }
+            guard let visibleRowIndex = visibleIndexes.first(where: {$0.row == index}) else {
+                return
+            }
+            guard let cell = self.tableView.cellForRow(at: visibleRowIndex) as? DataTableViewCell else {
+                return
+            }
+            cell.valueLabel.text = "\(model.value)"
         }
         self.incrementTimersList.append(IncrementTimer(timer: timer, modelIndex: index))
         RunLoop.current.add(timer, forMode: .common)
