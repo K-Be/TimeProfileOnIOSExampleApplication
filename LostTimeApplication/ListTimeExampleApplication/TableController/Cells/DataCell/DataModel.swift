@@ -7,8 +7,14 @@
 
 import Foundation
 
-struct DataModel {
+class DataModel {
     let text: String
-    let value: Int
+    var value: Int
     let numberOfItems: UInt
+
+    init(text: String, value: Int, numberOfItems: UInt) {
+        self.text = text
+        self.value = value
+        self.numberOfItems = numberOfItems
+    }
 }
