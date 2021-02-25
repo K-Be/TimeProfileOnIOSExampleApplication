@@ -9,7 +9,6 @@ import UIKit
 import GameKit
 
 struct IncrementTimer {
-    let timer: Timer
     let modelIndex: Int
 }
 
@@ -33,6 +32,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         queue.qualityOfService = .background
         return queue
     }()
+    let timersScheduler = TimersScheduler()
 
     var models = ModelsList() {
         didSet {
@@ -105,7 +105,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     private func produceModels(withCompletion completion: @escaping (_ list: ModelsList) -> Void) -> Void {
-        let countModels = 10000000
+        let countModels = 10_000_000
         let progress = Progress(totalUnitCount: Int64(countModels))
         self.progressObservation = progress.observe(\.fractionCompleted,
                                                     changeHandler: { [weak self](sender:Progress, _) in
@@ -141,25 +141,27 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         guard index >= 0 && index<self.models.count else {
             return
         }
-        let timer = Timer(timeInterval: 0.4, repeats: true) { [weak self] (_) in
+        self.incrementTimersList.append(IncrementTimer(modelIndex: index))
+        self.timersScheduler.scheduleBlock({ [weak self] in
             guard let self = self else {
                 return
             }
-            let model = self.models[index]
-            model.value += 1
-            guard let visibleIndexes = self.tableView.indexPathsForVisibleRows else {
-                return
+            DispatchQueue.execSyncOnMain {
+                let model = self.models[index]
+                model.value += 1
+                guard let visibleIndexes = self.tableView.indexPathsForVisibleRows else {
+                    return
+                }
+                guard let visibleRowIndex = visibleIndexes.first(where: {$0.row == index}) else {
+                    return
+                }
+                guard let cell = self.tableView.cellForRow(at: visibleRowIndex) as? DataTableViewCell else {
+                    return
+                }
+                cell.valueLabel.text = "\(model.value)"
             }
-            guard let visibleRowIndex = visibleIndexes.first(where: {$0.row == index}) else {
-                return
-            }
-            guard let cell = self.tableView.cellForRow(at: visibleRowIndex) as? DataTableViewCell else {
-                return
-            }
-            cell.valueLabel.text = "\(model.value)"
-        }
-        self.incrementTimersList.append(IncrementTimer(timer: timer, modelIndex: index))
-        RunLoop.current.add(timer, forMode: .common)
+        },
+                                           withTime: 0.4)
     }
 
 

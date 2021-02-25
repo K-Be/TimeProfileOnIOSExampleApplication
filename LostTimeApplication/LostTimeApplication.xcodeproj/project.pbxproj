@@ -20,6 +20,8 @@
 		1327725F25D199950063F76B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132771F825D198C40063F76B /* DataModel.swift */; };
 		1327726025D199950063F76B /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132771FA25D198C40063F76B /* DataTableViewCell.swift */; };
 		1327726125D199950063F76B /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132771FC25D198C40063F76B /* TableViewController.xib */; };
+		1342CC4A25E549EF00991048 /* TimersScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342CC4925E549EF00991048 /* TimersScheduler.swift */; };
+		1342CC4F25E54D4600991048 /* DispatchQueue+MainSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342CC4E25E54D4600991048 /* DispatchQueue+MainSync.swift */; };
 		13823B6825DC181100A5617C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13823B6725DC181100A5617C /* GameKit.framework */; };
 		13823B6E25DC1B7100A5617C /* String+Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13823B6D25DC1B7100A5617C /* String+Dimensions.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		1327722C25D198F50063F76B /* ListTimeExampleApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListTimeExampleApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1327723025D198F50063F76B /* ListTimeExampleApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimeExampleApplicationUITests.swift; sourceTree = "<group>"; };
 		1327723225D198F50063F76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1342CC4925E549EF00991048 /* TimersScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersScheduler.swift; sourceTree = "<group>"; };
+		1342CC4E25E54D4600991048 /* DispatchQueue+MainSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+MainSync.swift"; sourceTree = "<group>"; };
 		13823B6725DC181100A5617C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
 		13823B6D25DC1B7100A5617C /* String+Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Dimensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				13823B6D25DC1B7100A5617C /* String+Dimensions.swift */,
+				1342CC4925E549EF00991048 /* TimersScheduler.swift */,
+				1342CC4E25E54D4600991048 /* DispatchQueue+MainSync.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -325,10 +331,12 @@
 				1327725F25D199950063F76B /* DataModel.swift in Sources */,
 				1327726025D199950063F76B /* DataTableViewCell.swift in Sources */,
 				1327725025D199850063F76B /* AppDelegate.swift in Sources */,
+				1342CC4A25E549EF00991048 /* TimersScheduler.swift in Sources */,
 				1327724F25D199850063F76B /* ViewController.swift in Sources */,
 				13823B6E25DC1B7100A5617C /* String+Dimensions.swift in Sources */,
 				1327724E25D199850063F76B /* SceneDelegate.swift in Sources */,
 				1327725E25D199950063F76B /* TableViewController.swift in Sources */,
+				1342CC4F25E54D4600991048 /* DispatchQueue+MainSync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
