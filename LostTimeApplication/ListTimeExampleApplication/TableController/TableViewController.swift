@@ -8,7 +8,7 @@
 import UIKit
 import GameKit
 
-struct IncrementTimer {
+struct IncrementTimer: Hashable, Equatable {
     let modelIndex: Int
 }
 
@@ -39,7 +39,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
             self.tableView.reloadData()
         }
     }
-    var incrementTimersList = Array<IncrementTimer>()
+    var incrementTimersList = Set<IncrementTimer>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -135,13 +135,14 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
 
     private func scheduleTimer(forModelAt index: Int) {
-        guard !self.incrementTimersList.contains(where: {$0.modelIndex == index})  else {
+        let model = IncrementTimer(modelIndex: index)
+        guard !self.incrementTimersList.contains(model) else {
             return
         }
         guard index >= 0 && index<self.models.count else {
             return
         }
-        self.incrementTimersList.append(IncrementTimer(modelIndex: index))
+        self.incrementTimersList.insert(model)
         self.timersScheduler.scheduleBlock({ [weak self] in
             guard let self = self else {
                 return
